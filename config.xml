@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.cetis67.admisiones"
+        version   = "0.0.1">
+    <name>Admisiones</name>
+
+    <description>
+        Aplicación que permite hacer el preregistro de un solicitante de nuevo ingeso al bahillerato tecnológico con carrera técnica en construcción, contabilidad y programación, que ofrece el CETis N°67 Cholula, Pue.
+    </description>
+
+    <author href="http://cetis67.uni.me" email="yean-karlo@hotmail.com">
+        Juan Carlos Velasco Oropeza -CETis N°67 Cholula
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="phonegap-version" value="2.5.0" />
+    <preference name="orientation"      value="portrait" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="true" />
+	<preference name="splash-screeen-duration" value="3000" />
+
+    <icon src="images/admis.png" />
+    <icon src="images/admis.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="images/admis.png"   gap:platform="ios"        width="57" height="57" />
+	<icon src="images/admis.png"   gap:platform="winphone" />
+
+    <gap:splash src="images/admisiones.png"		gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="images/admisiones.png"		gap:platform="ios"     width="320" height="480" />
+	<gap:splash src="images/admisiones.png"		gap:platform="winphone" />
+	
+	<access origin="*" subdomains="true" />
+</widget>
